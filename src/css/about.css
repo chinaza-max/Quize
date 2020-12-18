@@ -1,0 +1,10 @@
+#aboutContainer{
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#aboutContainer h3{
+    font-family:'Times New Roman', Times, serif;
+}

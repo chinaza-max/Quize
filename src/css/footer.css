@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(15, 15, 15);
+    justify-content: space-around;
+}
+.footer div{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.footer div:nth-child(2){
+    text-align: center;
+}
+.footer div:nth-child(1){
+    padding-left: 12px;
+    padding-top:50px ;
+}
+.footer div p{
+    color: white;
+}
+
+@media(max-width:1024px){
+    .footer div:nth-child(1){
+        padding-left: 0px;
+        text-align: center;
+        padding-top:0px ;
+    }
+}
